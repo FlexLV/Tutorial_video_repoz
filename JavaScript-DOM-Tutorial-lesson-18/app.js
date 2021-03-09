@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function(){
 
-  const list = document.querySelector('#book-list ul');
+  const list = document.querySelector('#grāmatu-list ul');
   const forms = document.forms;
 
   
@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function(){
   });
 
   
-  const searchBar = forms['search-books'].querySelector('input');
+  const searchBar = forms['meklēt-grāmatas'].querySelector('input');
   searchBar.addEventListener('keyup', (e) => {
     const term = e.target.value.toLowerCase();
     const books = list.getElementsByTagName('li');

@@ -20,19 +20,19 @@ h1, h2{
     border: 1px solid lightgray;
 }
 
-#page-banner{
+#lapas-baneris{
     background: #eee ;
     padding: 10px 0;
 
 }
 
-#page-banner h1, #page-banner p{
+#lapas-baneris h1, #lapas-baneris p{
     width: 100%;
     text-align: center;
     margin: 10px 0;
 }
 
-#page-banner input{
+#lapas-baneris input{
     width: 90%;
     max-width: 300px;
     margin: 20px auto;
@@ -44,22 +44,22 @@ h1, h2{
     color: #444;
 }
 
-#book-list, #add-book, #tabbed-content{
+#grāmatu-list, #add-book, #tabbed-content{
     margin: 30px;
 }
 
-#book-list ul, #tabbed-content ul{
+#grāmatu-list ul, #tabbed-content ul{
     list-style-type: none;
     padding: 0;
 }
 
-#book-list li{
+#grāmatu-list li{
     padding: 20px;
     border-left: 5px solid #ddd;
     margin: 20px 10px;
 }
 
-#book-list li:hover{
+#grāmatu-list li:hover{
     border-color: #9361bf;
 }
 
